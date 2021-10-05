@@ -1,0 +1,87 @@
+.MainArea{
+    display: flex;
+    justify-content: space-between;
+}
+.Sidebar{
+    display: grid;
+    width: 17%;
+    height: 1rem;
+}
+.Sidebar>div{
+    height:auto;
+}
+.Home{
+    border-bottom:1px black solid;
+}
+.Quick_Icon{
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    height: 1rem;
+    padding: 10px;
+}
+.Quick_Icon>div{
+    padding: 0 12px;
+}
+
+/*Main*/
+.Main{
+ display:grid;
+ width:83%;
+}
+.Main > div{
+    margin: 8px 2px;
+}
+.Videos{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom:1px black solid;
+}
+.Video{
+    justify-content: space-around;
+    height:350px;
+    left: 0;
+    width :250px;
+    margin: 8px;
+}
+.logo{
+    display:flex;
+}
+.logo >div{
+    padding: 0 12px;
+}
+.Videos{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Video{
+    justify-content: space-around;
+    height: 274px;
+    left: 0;
+    width: 250px;
+    margin: 8px;
+}
+.logo{
+    display: flex;
+}
+.logo > div{
+    padding: 0 12px;
+}
+.views{
+    font-size: 1.5rem;
+    color :rgb(22,19,19);
+}
+.Videoss{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    border-bottom:1px black solid;
+}
+.Videoes{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    border-bottom:1px black solid;
+}
